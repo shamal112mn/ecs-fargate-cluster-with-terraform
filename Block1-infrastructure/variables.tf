@@ -1,5 +1,5 @@
 variable "user_profile" {
-  type = string
+  type        = string
   description = "AWS user profile"
 }
 
