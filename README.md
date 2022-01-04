@@ -22,7 +22,7 @@ How to run project
 
  List terraform commands:
 
-  source set-tfenv.sh
+  source ../set-tfenv.sh
   terraform init -backend-config=infrastructure-prod.config   #to init terraform backend 
   terraform init -backend-config=platform-prod.config
   terraform init -backend-config=app-prod.config
