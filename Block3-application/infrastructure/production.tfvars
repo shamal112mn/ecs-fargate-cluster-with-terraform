@@ -10,4 +10,4 @@ spring_profile = "default"
 memory = 1024
 cpu = 512
 
-user_profile = "usermja"
+# user_profile = ""
