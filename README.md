@@ -35,9 +35,11 @@ How to run project
 
   - cd Block3-application/infrastructure
 
-  - source deploy.sh build       # to build java app and generate target folder with application.jar file
+  - source deploy.sh build       # to build java app and 
+                                 # generate target folder with application.jar file
 
-  - source deploy.sh dockerize   # to build docker image and push to ECR ( update SERVICE_TAG="v1" for new image )
+  - source deploy.sh dockerize   # to build docker image and 
+                                 # push to ECR ( update SERVICE_TAG="v1" for new image )
 
   - source deploy.sh plan        # to init backend and run terraform plan
   - source deploy.sh deploy      # to init backend and run terraform apply
