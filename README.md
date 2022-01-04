@@ -46,6 +46,16 @@ How to run project
   - source deploy.sh destroy     # to run terraform destroy
 
 
+4 To update message on java application
+  - locate file TestController.java at src/main/java/controller
+  - Update path or message
+  - Use script deploy.sh to update project
+  - Rebuild java application
+  - Build new image and push image to ECR with new tag
+  - Redeploy with terraform
+
+
+
 
 
 
