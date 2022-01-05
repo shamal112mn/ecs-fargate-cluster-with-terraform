@@ -33,7 +33,8 @@ How to run project
 
 3 Deploy Application block has script deploy.sh and use script with commands:
 
-  - cd Block3-application/infrastructure
+  - cd infrastructure
+  - source ../../set-tfenv.sh
 
   - source deploy.sh build       # to build java app and 
                                  # generate target folder with application.jar file
