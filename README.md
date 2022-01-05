@@ -5,7 +5,8 @@
 Project was splited into 3 blocks:
 
 1 Provision VPC
-2 Provision ECS Fargate cluster
+2 Provision ECS Fargate cluster 
+  - Create domain name for cluster on route53
 3 Deploy application (simple java appl.)
 
 
